@@ -1,0 +1,37 @@
+.header-container {
+    height: 110px;
+    background-color: #233142;
+    display: flex;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 700;
+    margin: auto 10px auto 30px;
+    color: #f95959
+  }
+
+.header-icon {
+    height: 80px;
+    margin: auto 0px;
+}
+
+.log-button {
+    background-color: #e3e3e3; 
+    color: #455d7a;
+    height: 35px;
+    width: 90px;
+    border: solid #455d7a;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 2px 20px 2px auto;
+
+}
+
+.buttons {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

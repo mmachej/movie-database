@@ -1,0 +1,33 @@
+.rec-header {
+    font-size: 25px;
+    color: #233142;
+}
+
+.rec-container{
+    display: flex;
+}
+
+.rec-plate {
+    height: 300px;
+    width: 150px;
+    background-color: #455d7a;
+    margin: 10px;
+    border-radius: 20px;
+    border: solid  #455d7a 5px
+}
+
+.rec-poster{
+    width: 150px;
+    height: 225px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.rec-title {
+    margin: auto 10px auto 10px;
+    font-size: 16px;
+    color: #e3e3e3;
+    font-weight: 600;
+    inline-size: 130px;
+    overflow-wrap: normal;
+}

@@ -30,19 +30,27 @@ The primary goal of this project is to provide users with an easy and interactiv
 
 To run this project locally, follow these steps:
 
-1. Clone the repository to your local machine:
+1. Install dependencies:
 
-### `git clone https://github.com/mmachej/movie-database.git`
+```
+npm install
+```
 
-2. Install dependencies:
+2. Copy the `.env.sample` file to `.env.local`:
 
-### `npm install`
+```
+cp .env.sample .env.local
+```
 
-## Usage
+3. Obtain an API key from [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api) by signing up for an account and following their API documentation.
 
-1. Start the development server:
+4. Open the `.env.local` file and replace the value of `REACT_APP_THEMOVIEDB_API_KEY` with your actual TMDb API key.
 
-### `npm start`
+5. Start the development server:
 
-2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to use the app.
+```
+npm start
+```
+
+6. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to use the app.
 
